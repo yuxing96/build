@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\JANUS\janus-c-3.0.5\build\CMakeFiles\e274aa5eb69efc00a81a02f869dbc050\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{918C8D00-E79D-3201-848F-F41564AAA1FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\carrier_sensing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\chips_alignment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\codecs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\fields.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\complex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\convolve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\ddc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\deinterleave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\demodulator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\doppler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\duc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\goertzel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\hop_index.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\interleave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\modulator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\packet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\parameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\primitive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\pset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\pset_parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\rx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\rx_state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\simple_rx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\simple_tx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\format.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_alsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_fifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_null.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_pulse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_wav.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream_wmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_alsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_fifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_null.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_pulse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_wav.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream_wmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\trellis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\tx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\tx_state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\bin2dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\cfar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\dec2bin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\fifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\fir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\gcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\go_cfar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\hamming_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\primes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\quad_fitn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\tukey_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\viterbi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\janus\wake_up_tones.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\carrier_sensing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\chips_alignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\codecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\fields.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\codec\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\convolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\ddc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\deinterleave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\demodulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\doppler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\duc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\dump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\goertzel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\hop_index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\interleave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\janus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\modulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\pset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\pset_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\rx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\rx_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\simple_rx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\simple_tx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\istream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\stream\ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\trellis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\tx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\tx_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\bin2dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\cfar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\dec2bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\fir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\gcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\go_cfar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\hamming_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\imath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\primes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\quad_fitn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\utils\tukey_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\viterbi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\janus\wake_up_tones.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\JANUS\janus-c-3.0.5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E820D175-2299-3E2E-98E8-3A1A60F43F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B55AA7AA-A9A5-34F9-BDE4-95EB302C7D5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

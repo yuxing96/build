@@ -1,0 +1,17 @@
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/test_convolve.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/janus_tx_mex.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/generated.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/janus.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/janus-tx.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/plugin_016_00.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/janus-rx.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/INSTALL.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/janus_rx_mex.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/PACKAGE.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/test_interleave.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/test_hop_index.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/test_wake_up_tone.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/test_packet.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/janus-dump-tables.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/ALL_BUILD.dir
+D:/JANUS/janus-c-3.0.5/build/CMakeFiles/ZERO_CHECK.dir

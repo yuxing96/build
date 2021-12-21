@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38F60C6C-5C4F-3402-8D00-CFA04E1FCA57}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\JANUS\janus-c-3.0.5\external\libraries\pthreads-win32;D:\JANUS\janus-c-3.0.5\src\c;D:\JANUS\janus-c-3.0.5\build\cmake_generated;D:\科研\JANUS\fftw库\fftw3_install_directory\include;E:\Matlab\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\JANUS\janus-c-3.0.5\external\libraries\pthreads-win32;D:\JANUS\janus-c-3.0.5\src\c;D:\JANUS\janus-c-3.0.5\build\cmake_generated;D:\科研\JANUS\fftw库\fftw3_install_directory\include;E:\Matlab\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\JANUS\janus-c-3.0.5\external\libraries\pthreads-win32;D:\JANUS\janus-c-3.0.5\src\c;D:\JANUS\janus-c-3.0.5\build\cmake_generated;D:\科研\JANUS\fftw库\fftw3_install_directory\include;E:\Matlab\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\JANUS\janus-c-3.0.5\external\libraries\pthreads-win32;D:\JANUS\janus-c-3.0.5\src\c;D:\JANUS\janus-c-3.0.5\build\cmake_generated;D:\科研\JANUS\fftw库\fftw3_install_directory\include;E:\Matlab\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\JANUS\janus-c-3.0.5\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/JANUS/janus-c-3.0.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -SD:/JANUS/janus-c-3.0.5 -BD:/JANUS/janus-c-3.0.5/build --check-stamp-file D:/JANUS/janus-c-3.0.5/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\JANUS\janus-c-3.0.5\cmake\Macros.cmake;D:\JANUS\janus-c-3.0.5\cmake\Toolchain.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\alsa.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\libflac.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\pulse.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\wmm.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindFFTW3.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindMatlab.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\Subversion.cmake;D:\JANUS\janus-c-3.0.5\src\c\janus\config.h.in;E:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CPack.cmake;E:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\FindDoxygen.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.18\Modules\FindPkgConfig.cmake;E:\CMake\share\cmake-3.18\Modules\InstallRequiredSystemLibraries.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/JANUS/janus-c-3.0.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -SD:/JANUS/janus-c-3.0.5 -BD:/JANUS/janus-c-3.0.5/build --check-stamp-file D:/JANUS/janus-c-3.0.5/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\JANUS\janus-c-3.0.5\cmake\Macros.cmake;D:\JANUS\janus-c-3.0.5\cmake\Toolchain.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\alsa.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\libflac.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\pulse.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\wmm.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindFFTW3.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindMatlab.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\Subversion.cmake;D:\JANUS\janus-c-3.0.5\src\c\janus\config.h.in;E:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CPack.cmake;E:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\FindDoxygen.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.18\Modules\FindPkgConfig.cmake;E:\CMake\share\cmake-3.18\Modules\InstallRequiredSystemLibraries.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/JANUS/janus-c-3.0.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMake\bin\cmake.exe -SD:/JANUS/janus-c-3.0.5 -BD:/JANUS/janus-c-3.0.5/build --check-stamp-file D:/JANUS/janus-c-3.0.5/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\JANUS\janus-c-3.0.5\cmake\Macros.cmake;D:\JANUS\janus-c-3.0.5\cmake\Toolchain.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\alsa.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\libflac.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\pulse.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\wmm.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindFFTW3.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindMatlab.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\Subversion.cmake;D:\JANUS\janus-c-3.0.5\src\c\janus\config.h.in;E:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CPack.cmake;E:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\FindDoxygen.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.18\Modules\FindPkgConfig.cmake;E:\CMake\share\cmake-3.18\Modules\InstallRequiredSystemLibraries.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/JANUS/janus-c-3.0.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -SD:/JANUS/janus-c-3.0.5 -BD:/JANUS/janus-c-3.0.5/build --check-stamp-file D:/JANUS/janus-c-3.0.5/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\JANUS\janus-c-3.0.5\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\JANUS\janus-c-3.0.5\cmake\Macros.cmake;D:\JANUS\janus-c-3.0.5\cmake\Toolchain.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\alsa.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\libflac.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\pulse.cmake;D:\JANUS\janus-c-3.0.5\cmake\libraries\wmm.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindFFTW3.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\FindMatlab.cmake;D:\JANUS\janus-c-3.0.5\cmake\modules\Subversion.cmake;D:\JANUS\janus-c-3.0.5\src\c\janus\config.h.in;E:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CPack.cmake;E:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;E:\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\FindDoxygen.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.18\Modules\FindPkgConfig.cmake;E:\CMake\share\cmake-3.18\Modules\InstallRequiredSystemLibraries.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\JANUS\janus-c-3.0.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\ZERO_CHECK.vcxproj">
+      <Project>{981A001F-993C-3D5D-BE66-BC5B13F2DDEE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\janus.vcxproj">
+      <Project>{7D670231-16D6-33BE-BEB3-B087B16C0268}</Project>
+      <Name>janus</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\janus-dump-tables.vcxproj">
+      <Project>{38FAB36E-6BEF-38DC-8465-EA743BCE5763}</Project>
+      <Name>janus-dump-tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\janus-rx.vcxproj">
+      <Project>{3FF365F4-E4BE-3F72-ADA7-F16FE00BE474}</Project>
+      <Name>janus-rx</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\janus-tx.vcxproj">
+      <Project>{9F151AB0-D41B-3806-A959-2BAE759347FA}</Project>
+      <Name>janus-tx</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\janus_rx_mex.vcxproj">
+      <Project>{AF173E0B-EA2B-3DDA-9CA6-E6A3596126F5}</Project>
+      <Name>janus_rx_mex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\janus_tx_mex.vcxproj">
+      <Project>{B2717BF4-FB9C-3103-B35E-F5766247D516}</Project>
+      <Name>janus_tx_mex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\plugin_016_00.vcxproj">
+      <Project>{AF483DC8-19E2-38B3-B0F1-3DF75F8CE742}</Project>
+      <Name>plugin_016_00</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\test_convolve.vcxproj">
+      <Project>{DA2A6AF6-4CA3-3292-85B1-0616E2999089}</Project>
+      <Name>test_convolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\test_hop_index.vcxproj">
+      <Project>{76D03528-E8D1-372E-9EA0-E49254B1C1D3}</Project>
+      <Name>test_hop_index</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\test_interleave.vcxproj">
+      <Project>{BF02D57C-BD5A-39CB-8CEE-1B0D2CCC7F6E}</Project>
+      <Name>test_interleave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\test_packet.vcxproj">
+      <Project>{F8BE510A-56B1-3666-851D-A4E7BB7D2353}</Project>
+      <Name>test_packet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\JANUS\janus-c-3.0.5\build\test_wake_up_tone.vcxproj">
+      <Project>{ED68D256-E18C-3D78-8C3B-B6DF229B6F11}</Project>
+      <Name>test_wake_up_tone</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

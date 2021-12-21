@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\mex\janus_tx_mex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\mex\mex_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\cli\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\JANUS\janus-c-3.0.5\src\c\cli\options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\mex\mex_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\cli\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\JANUS\janus-c-3.0.5\src\c\cli\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\JANUS\janus-c-3.0.5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E820D175-2299-3E2E-98E8-3A1A60F43F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B55AA7AA-A9A5-34F9-BDE4-95EB302C7D5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
